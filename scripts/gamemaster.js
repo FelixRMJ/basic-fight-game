@@ -22,6 +22,10 @@ let gameMaster = {
         player = new Player(classType, 50, 0, 30, 200, 100, 9);
         break;
    }
+        //Delete content of the interface and replace it with new content
+    let getInterface = document.querySelector('.interface');
+    getInterface.innerHTML = '<img src = "/img/' + classType.toLowerCase() + '.png " class = "img-avatar">'
+
   },
   //sets the first stage inside the game
   setPreFight: function(){
