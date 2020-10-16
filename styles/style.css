@@ -26,5 +26,8 @@ a:visited{
   align-items: center;
 }
 .interface img{
-  size: 150px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
 }
